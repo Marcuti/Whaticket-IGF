@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "replace-string@3.0.0",
+        "scope": null,
+        "escapedName": "replace-string",
+        "name": "replace-string",
+        "rawSpec": "3.0.0",
+        "spec": "3.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/resolve-dependencies"
+    ]
+  ],
+  "_from": "replace-string@3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "replace-string@3.0.0",
+  "_location": "/replace-string",
+  "_nodeVersion": "10.15.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/replace-string_3.0.0_1556261103138_0.06110468490332632"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "replace-string@3.0.0",
+    "scope": null,
+    "escapedName": "replace-string",
+    "name": "replace-string",
+    "rawSpec": "3.0.0",
+    "spec": "3.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/resolve-dependencies"
+  ],
+  "_resolved": "https://registry.npmjs.org/replace-string/-/replace-string-3.0.0.tgz",
+  "_shasum": "49deafb57839fa3bab9c11ad449b006e0d436e69",
+  "_shrinkwrap": null,
+  "_spec": "replace-string@3.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/resolve-dependencies",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/replace-string/issues"
+  },
+  "dependencies": {},
+  "description": "Replace all substring matches in a string",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-jE5X/k3p2v8p6+wxhM1Ti0Oj9lYtwPbMj0ty8iSFpAFIihkiNpl6uHgYW1De/r9DG3vA7HGIgIBMjlwJZXL02w==",
+    "shasum": "49deafb57839fa3bab9c11ad449b006e0d436e69",
+    "tarball": "https://registry.npmjs.org/replace-string/-/replace-string-3.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5614,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcwqjvCRA9TVsSAnZWagAAMtMP/AmahjVJ/OsIYobdAO4O\npkEP/+vn/WMzIQ0w2SZvGBE2YJMMUjeVDP3W+NqCGMiOwxCb4/yfkFhk6Eza\nQoMkJqJI69JDMxlzCFYt/+07pTYPhlXMQALnhVQia6TzBvFXfjfhnds7sSU7\nAzDZrMp4hHent1Pjdyzl6yJk4yLmJkCVnpPD2yuUTPEjQtrin6/I8zlSFHMc\nFgzOLSAvxt6G7e9/tKzSKqBRDTNOwQXGOv1TNWuQAEq21QieyRs6ffl9iWaz\nOr6Bu6GOHkyQ6mmkSkCRw4dt7aM+5lkFqceLWSadjroWZ54k7/kI8u7gk0Fv\nlWeH9GBvnM2lBiD68j8q9KGhaQYiM22jglP1PG53zft7ayInXX15UXkJ/20d\n+74m+G5jS5jol5oItjt9Se+yLV7qFJglTSLr98/IarAOoRIAICnrrJtPb8xw\nW6OVmsWk+cXz8ZgeYvGkfTMzVXOKrPzjoKmqNC78KfcQMQ+9XTRv0zjXdwYf\nglIKN1XaELwGA+9bTjRFePXJhdR9JfmxJeOFF0CepMVXJWHJ8HXJ6viVus11\niKY8XMFBlQpxG1M+FZk16qlc+VtFs2uxMwpm6rle5972QDR828aLcsM6iE/m\nn2HtO0Jw63MhE26KSrulydFO2z8BX9BC77mx1LXcCq518pANjeXkWT96QMvc\n/CBT\r\n=tFfn\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "b873ad85607c736834e728bf5e452f1c926432f3",
+  "homepage": "https://github.com/sindresorhus/replace-string#readme",
+  "keywords": [
+    "replace",
+    "string",
+    "text",
+    "all",
+    "many",
+    "multiple",
+    "global",
+    "match",
+    "matches",
+    "replacement",
+    "replacer",
+    "modify",
+    "substring",
+    "sub-string",
+    "needle",
+    "search"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "replace-string",
+  "optionalDependencies": {},
+  "readme": "# replace-string [![Build Status](https://travis-ci.org/sindresorhus/replace-string.svg?branch=master)](https://travis-ci.org/sindresorhus/replace-string)\n\n> Replace all substring matches in a string\n\nSimilar to `String#replace()`, but supports replacing multiple matches. You could achieve something similar by putting the string in a `RegExp` constructor with the global flag and passing it to `String#replace()`, but you would then have to first escape the string anyways.\n\n\n## Install\n\n```\n$ npm install replace-string\n```\n\n\n## Usage\n\n```js\nconst replaceString = require('replace-string');\n\nconst string = 'My friend has a 🐑. I want a 🐑 too!';\n\nreplaceString(string, '🐑', '🦄');\n//=> 'My friend has a 🦄. I want a 🦄 too!'\n```\n\n\n## API\n\n### replaceString(string, needle, replacement, [options])\n\nReturns a new string with all `needle` matches replaced with `replacement`.\n\n#### string\n\nType: `string`\n\nString to work on.\n\n#### needle\n\nType: `string`\n\nString to match in `input`.\n\n#### replacement\n\nType: `string | Function`\n\nReplacement for `needle` matches.\n\nIf a function, it receives the following arguments; the `needle`, the match count, and the `input`:\n\n```js\nreplaceString('Foo 🐑 Bar', '🐑', (needle, matchCount, input, matchIndex) => `${needle}❤️`);\n//=> 'Foo 🐑❤️ Bar'\n```\n\n#### options\n\nType: `object`\n\n##### fromIndex\n\nType: `number`<br>\nDefault: `0`\n\nIndex at which to start replacing.\n\n\n## Related\n\n- [execall](https://github.com/sindresorhus/execall) - Find multiple `RegExp` matches in a string\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/replace-string.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "3.0.0"
+}

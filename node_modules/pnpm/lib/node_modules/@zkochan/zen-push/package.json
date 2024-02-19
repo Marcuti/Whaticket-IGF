@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@zkochan/zen-push@1.0.0",
+        "scope": "@zkochan",
+        "escapedName": "@zkochan%2fzen-push",
+        "name": "@zkochan/zen-push",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-reporter"
+    ]
+  ],
+  "_from": "@zkochan/zen-push@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "@zkochan/zen-push@1.0.0",
+  "_location": "/@zkochan/zen-push",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/zen-push_1.0.0_1546309927020_0.9782282423143067"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@zkochan/zen-push@1.0.0",
+    "scope": "@zkochan",
+    "escapedName": "@zkochan%2fzen-push",
+    "name": "@zkochan/zen-push",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/default-reporter"
+  ],
+  "_resolved": "https://registry.npmjs.org/@zkochan/zen-push/-/zen-push-1.0.0.tgz",
+  "_shasum": "255f009a22bfb6fa8f480dbd144c7ee19f479246",
+  "_shrinkwrap": null,
+  "_spec": "@zkochan/zen-push@1.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/default-reporter",
+  "bugs": {
+    "url": "https://github.com/zkochan/zen-push/issues"
+  },
+  "dependencies": {
+    "@types/zen-observable": "^0.8.0",
+    "zen-observable": "^0.8.6"
+  },
+  "description": "An Observable push stream",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-nHBmtlomBTExmjq9VlSqh33sJI08L4n6g4zkzSh8cHBz+J5uscuXLeLTAZwo9/6W6BngC2z+4G7RKDFgAtB0Fw==",
+    "shasum": "255f009a22bfb6fa8f480dbd144c7ee19f479246",
+    "tarball": "https://registry.npmjs.org/@zkochan/zen-push/-/zen-push-1.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5204,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcKtEnCRA9TVsSAnZWagAARugQAJK2b/BI8to4nK/h6ieU\nxy0183L+XzxeTjj+cu1F6+2zHkls8ImQCTwygap3k99YE9wB/mp6PjTXYzFp\n8AVKdyOOrD+XkUQllCFE+c8aPHi0pgfIsDerqi9RkGXLH7Ovwz0orOerKuqv\nMjU2NAWrh9j3uDJzo0OjT7t3nPsrsIm+Tl/wSjjWEgKdxxOWC4vPLuyxHj8K\n5hyBg7VCIcYvTR/eEICvsoEEHErIr3WXKPr2czVuyuwPgYebo35e3+9f1Jau\nq4oIRidaSiT78zZeGfNS5hDJe333ctpNr4a3ELGhFXyQIBW5fAeht8kd0Lp8\nXfo8yasiNEtseebU/DAF0eyunKPx32F8QT9HYlmH4NWS6cd+J3TgCkuhmOt1\n1cvSrhIF1c9fT4ldmSdkbmtHGXVhx9Wb/XUF0MQFadB1uVPiInzhIoXgabK4\ngXJQRF6ekiyk59gf1x3l1TqL4ReOzjFGvnj3c3pAk9b8GMO40WsEkGRZrWYa\nvFqv5j3+g9YY21lNj4Tl1JDS7ZOYC47svE92FoHkwvH3L/aTpug6Z4XNrSRm\npGO7HJcP8Fv52jYImGsMWdGFCMB6j6zohZStSNZsLHzLI2Mq6bY4VVHFt9pV\nYevLRvqYrmrdN1Sj5C2yNNjrDRSnVdfbdZYgqjrXUhxseze0YC+2mEZ6g8i6\npdFd\r\n=a47C\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "b23319d2a68e21a74efb2bd0ae4e736724e4a30b",
+  "homepage": "https://github.com/zkochan/zen-push",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "name": "@zkochan/zen-push",
+  "optionalDependencies": {},
+  "readme": "# @zkochan/zen-push\n\nA push stream observable class. *(Sometimes called a Subject in Rx-speak.)*\n\n## Install\n\n```sh\nnpm install @zkochan/zen-push\n```\n\n## Usage\n\n```js\nimport PushStream from '@zkochan/zen-push';\n\nlet pushStream = new PushStream();\npushStream.observable.subscribe(value => console.log(`Hello ${value}!`));\npushStream.next('World'); // 'Hello World!'\n```\n\n## API\n\n### new PushStream ( )\n\n```js\nlet pushStream = new PushStream();\n```\n\nCreates a new PushStream object.\n\n### pushStream.observable\n\n```js\npushStream.observable.subscribe(value => console.log(`Hello ${value}!`));\n```\n\nThe instance of [Observable](https://github.com/tc39/proposal-observable) used to listen to elements in the push stream.\n\n### pushStream.next ( value )\n\n```js\npushStream.next('World');\n```\n\nSends the next stream value to all observers.\n\n### pushStream.error ( error )\n\n```js\npushStream.error(new Error('The planet as been destroyed'));\n```\n\nSends an error to all observers. Calling this method terminates the stream.\n\n### pushStream.complete ( )\n\n```js\npushStream.complete();\n```\n\nSends a signal to all observers that the stream is finished. Calling this method terminates the stream.\n\n## License\n\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/zen-push.git"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "version": "1.0.0"
+}

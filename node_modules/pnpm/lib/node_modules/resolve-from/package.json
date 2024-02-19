@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "resolve-from@^5.0.0",
+        "scope": null,
+        "escapedName": "resolve-from",
+        "name": "resolve-from",
+        "rawSpec": "^5.0.0",
+        "spec": ">=5.0.0 <6.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@zkochan/npm-lifecycle"
+    ]
+  ],
+  "_from": "resolve-from@^5.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "resolve-from@5.0.0",
+  "_location": "/resolve-from",
+  "_nodeVersion": "8.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/resolve-from_5.0.0_1555301185445_0.996189064165252"
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "resolve-from@^5.0.0",
+    "scope": null,
+    "escapedName": "resolve-from",
+    "name": "resolve-from",
+    "rawSpec": "^5.0.0",
+    "spec": ">=5.0.0 <6.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@zkochan/npm-lifecycle",
+    "/import-from"
+  ],
+  "_resolved": "https://registry.npmjs.org/resolve-from/-/resolve-from-5.0.0.tgz",
+  "_shasum": "c35225843df8f776df21c57557bc087e9dfdfc69",
+  "_shrinkwrap": null,
+  "_spec": "resolve-from@^5.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@zkochan/npm-lifecycle",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/resolve-from/issues"
+  },
+  "dependencies": {},
+  "description": "Resolve the path of a module like `require.resolve()` but from a given path",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "tsd": "^0.7.2",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==",
+    "shasum": "c35225843df8f776df21c57557bc087e9dfdfc69",
+    "tarball": "https://registry.npmjs.org/resolve-from/-/resolve-from-5.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5824,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctANCCRA9TVsSAnZWagAAk7AQAIcOATtZd/Q0bDCROwwr\ne0iFyIuXPepEyjRgUuflYglfxBa4zg8z6LEKV2PIlVBryh+nw3bv8HIb0I1+\n9CLHFLwRrmjoDAttsm5EU8wY9wqTGzxoY/n72jnq5Nekpw0ENKkXsElZHaiG\ny3abQy+PAI1jtNhlZwxYMPm5v43JnIscxLKIe2+D4Glfy05779edS7BrrPYw\nKLn8bWgijuc27FIXKwoRKvysyH7Rp+7A45UE2MoWemLuPIPoGv0HI9/qUgrW\n3M1wWqLU3jwPvfa8lshrJ4SESHRxZlOCqOStDJqRP8xV80Us4hTfiPDg9MHx\n2MKoAtB7X4dhaqWXg489O3pUzxNazl9euxFRFybq30O/S8git4b2v0ETHpEt\nPLJZBO4p6Qw8x26CjspGbHTJMbMgQsdvR18FiTvq5Pg74ZkXCDEAH5mQcLUr\nPofEpd/QwQGxfM+Y+/q4y4/Z4fKp7M+1fpbCLHwn5c5TIUNc253CvbXhy+Oc\nZNhafcMsudm2NRYQlMLnWnShztMes2wFk+XRFO1S8E2QWktBHh4s1FIoSuYY\nilRxr3BHtf4g8j5gFBorgUx0RyDMrStlNJQG89HQTtEewrOyboUeUfoJl1Un\nAscCCCLsiSjZNyHT/KZmgfMAJP1go8taMEzmfFDllsYy1rg6GJxQpftyA02V\nCkJD\r\n=95CN\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "53f4a1b40f972dbfc4dda9627d24068000eae897",
+  "homepage": "https://github.com/sindresorhus/resolve-from#readme",
+  "keywords": [
+    "require",
+    "resolve",
+    "path",
+    "module",
+    "from",
+    "like",
+    "import"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "resolve-from",
+  "optionalDependencies": {},
+  "readme": "# resolve-from [![Build Status](https://travis-ci.org/sindresorhus/resolve-from.svg?branch=master)](https://travis-ci.org/sindresorhus/resolve-from)\n\n> Resolve the path of a module like [`require.resolve()`](https://nodejs.org/api/globals.html#globals_require_resolve) but from a given path\n\n\n## Install\n\n```\n$ npm install resolve-from\n```\n\n\n## Usage\n\n```js\nconst resolveFrom = require('resolve-from');\n\n// There is a file at `./foo/bar.js`\n\nresolveFrom('foo', './bar');\n//=> '/Users/sindresorhus/dev/test/foo/bar.js'\n```\n\n\n## API\n\n### resolveFrom(fromDirectory, moduleId)\n\nLike `require()`, throws when the module can't be found.\n\n### resolveFrom.silent(fromDirectory, moduleId)\n\nReturns `undefined` instead of throwing when the module can't be found.\n\n#### fromDirectory\n\nType: `string`\n\nDirectory to resolve from.\n\n#### moduleId\n\nType: `string`\n\nWhat you would use in `require()`.\n\n\n## Tip\n\nCreate a partial using a bound function if you want to resolve from the same `fromDirectory` multiple times:\n\n```js\nconst resolveFromFoo = resolveFrom.bind(null, 'foo');\n\nresolveFromFoo('./bar');\nresolveFromFoo('./baz');\n```\n\n\n## Related\n\n- [resolve-cwd](https://github.com/sindresorhus/resolve-cwd) - Resolve the path of a module from the current working directory\n- [import-from](https://github.com/sindresorhus/import-from) - Import a module from a given path\n- [import-cwd](https://github.com/sindresorhus/import-cwd) - Import a module from the current working directory\n- [resolve-pkg](https://github.com/sindresorhus/resolve-pkg) - Resolve the path of a package regardless of it having an entry point\n- [import-lazy](https://github.com/sindresorhus/import-lazy) - Import a module lazily\n- [resolve-global](https://github.com/sindresorhus/resolve-global) - Resolve the path of a globally installed module\n\n\n## License\n\nMIT © [Sindre Sorhus](https://sindresorhus.com)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/resolve-from.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd"
+  },
+  "version": "5.0.0"
+}

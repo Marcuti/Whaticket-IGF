@@ -1,0 +1,123 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "dint@4.0.0",
+        "scope": null,
+        "escapedName": "dint",
+        "name": "dint",
+        "rawSpec": "4.0.0",
+        "spec": "4.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/git-fetcher"
+    ]
+  ],
+  "_from": "dint@4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "dint@4.0.0",
+  "_location": "/dint",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dint_4.0.0_1552685075130_0.5675901689681297"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "dint@4.0.0",
+    "scope": null,
+    "escapedName": "dint",
+    "name": "dint",
+    "rawSpec": "4.0.0",
+    "spec": "4.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/check-package",
+    "/@pnpm/git-fetcher"
+  ],
+  "_resolved": "https://registry.npmjs.org/dint/-/dint-4.0.0.tgz",
+  "_shasum": "d93ec9a5340a4285280e4404b42ce5cd10e9834e",
+  "_shrinkwrap": null,
+  "_spec": "dint@4.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/git-fetcher",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://kochan.io"
+  },
+  "bugs": {
+    "url": "https://github.com/zkochan/dint/issues"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "mz": "^2.7.0",
+    "p-every": "^2.0.0",
+    "p-limit": "^2.0.0",
+    "ssri": "^6.0.0"
+  },
+  "description": "Generate and verify directory integrity",
+  "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "package-preview": "^2.0.0",
+    "tape": "^4.6.3"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-CISZwy/n83/l+I1K9eDxVkixe4OZLjgB/zq4eGJekmKxbNThpmY4QqzReGpe0csJ+eiMToOosoL3McZF2NHgjA==",
+    "shasum": "d93ec9a5340a4285280e4404b42ce5cd10e9834e",
+    "tarball": "https://registry.npmjs.org/dint/-/dint-4.0.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 6106,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcjBgTCRA9TVsSAnZWagAAlh8P/23n6HSautdRB6jPw9Ye\nOoaSSAHooSD9XhXUvGqeeMIzOdVw3s1G5Eb7UB1Z9ZwSl10bC8zB2EGI2OOf\nMaFx0H7GUcoQLOzHlG259qdZO4UxJd1DNJiFQ8ieJbqJlpblzFGzFdeo2lV7\nD259dRbkli8In+khpX81eucX+duHGHuqBMjbXtMvqD+0MnVXDalMZRDFoiag\nEzpw5eIgrBnZn9Pl4B0TE2SvU3IJidj4LnY5Kv2wi+2oBCTTgfIo/jdJxUwf\nAoNGyvCfnLCNyj9fKEh3gNiWejyrlF/SOzJ8U+Wl+LXXKfq5BPNMEO66i+MK\nk+Q59GzylF662dPVhTGT2oIPKDwRMcfv8g53gMjx3Ti4MYfSRNExRKtGocfJ\nOffs88gxayFQHBp/yRLg92gIUJJ+fCwWgrk4zzUgyfiAVh+gfBqj/MtxJ4sy\n+x6M7WOXBRgK78X8xAhUedxuqv68Z9xSs3V/anC11IPn/KE+1imlhTk9opWO\nBF1VMNn3bexxGiKqMBqC0ci1NgmzWzCiAXTRZI6EXeHKkvYqUOvuHQ8xuN8N\nwbqW3+vplSMqmHxZDjK/zmwsrKk0HfkxwEEDrTLKGm0AGzqVeCXglD+SFXHp\n1XFgX39NMgFbeVfTwO1M8liHYpYtRl2QWRAYUjs0yO4KsAHqVBAT5AIDPvBu\nvvYw\r\n=vxlZ\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js"
+  ],
+  "gitHead": "db518ff5b9d61114428017f542b6221ce199b544",
+  "homepage": "https://github.com/zkochan/dint#readme",
+  "keywords": [
+    "integrity",
+    "sri",
+    "directory",
+    "fs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "zoltan.kochan@gmail.com"
+    }
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "name": "dint",
+  "optionalDependencies": {},
+  "readme": "# dint\n\n> Generate and verify directory integrity\n\n<!--@shields('npm', 'travis')-->\n[![npm version](https://img.shields.io/npm/v/dint.svg)](https://www.npmjs.com/package/dint) [![Build Status](https://img.shields.io/travis/zkochan/dint/master.svg)](https://travis-ci.org/zkochan/dint)\n<!--/@-->\n\nThis package is mostly a copy/paste from [@zkat](https://github.com/zkat)'s [cadr](https://github.com/zkat/cadr) excluding the [cacache](https://github.com/zkat/cacache) usages.\n\n**Important!** A directory is not considered modified if a file was added.\nA directory is considered modified if a file was modified or removed.\n\n## Installation\n\n```sh\nnpm i -S dint\n```\n\n## API\n\n### `from(dirname): Promise<DirectoryIntegrity>`\n\nReturns a mapping of file names to size and [Subresource Integrity](https://w3c.github.io/webappsec-subresource-integrity/) of each file.\n\nResult example:\n\n```js\n{\n 'test/fixtures/4/lib/bar.js':\n   { generatingIntegrity: Promise<'sha512-1B0QjibzjRrYeSf79Hcy9T1t8KNt4cFpz//88geXTN6lDnUzMo+4o/MJDESUs884XdZ5EX4RLdzsJA8qeEV3lg=='>,\n     size: 198 },\n  'test/index.js':\n   { generatingIntegrity: Promise<'sha512-X6ypBcefaTDbDHHcR0J57E2dvDv6vAVi7tHAhfDImmDU8LBaYwdkdX+hVlqFdWNevJjRqsgZbXb/c+Ewq5t3tQ=='>,\n     size: 939 } }\n```\n\n### `check(dirname, directoryIntegrity): Promise<Boolean>`\n\nVerifies directory integrity against a `directoryIntegrity` argument.\n\nE.g.:\n\n```js\ncheck('dirname', {\n 'test/fixtures/4/lib/bar.js':\n   { integrity: 'sha512-1B0QjibzjRrYeSf79Hcy9T1t8KNt4cFpz//88geXTN6lDnUzMo+4o/MJDESUs884XdZ5EX4RLdzsJA8qeEV3lg==',\n     size: 198 },\n  'test/index.js':\n   { integrity: 'sha512-X6ypBcefaTDbDHHcR0J57E2dvDv6vAVi7tHAhfDImmDU8LBaYwdkdX+hVlqFdWNevJjRqsgZbXb/c+Ewq5t3tQ==',\n     size: 939 } })\n```\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](http://kochan.io)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/dint.git"
+  },
+  "scripts": {
+    "md": "mos",
+    "test": "preview && node test"
+  },
+  "version": "4.0.0"
+}

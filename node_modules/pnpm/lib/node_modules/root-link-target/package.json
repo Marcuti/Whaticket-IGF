@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "root-link-target@2.0.0",
+        "scope": null,
+        "escapedName": "root-link-target",
+        "name": "root-link-target",
+        "rawSpec": "2.0.0",
+        "spec": "2.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-path"
+    ]
+  ],
+  "_from": "root-link-target@2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "root-link-target@2.0.0",
+  "_location": "/root-link-target",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/root-link-target_2.0.0_1556980704205_0.6767688363334727"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "root-link-target@2.0.0",
+    "scope": null,
+    "escapedName": "root-link-target",
+    "name": "root-link-target",
+    "rawSpec": "2.0.0",
+    "spec": "2.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/store-path"
+  ],
+  "_resolved": "https://registry.npmjs.org/root-link-target/-/root-link-target-2.0.0.tgz",
+  "_shasum": "954fe8167c683965c411f5672f315bd4da9091de",
+  "_shrinkwrap": null,
+  "_spec": "root-link-target@2.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/store-path",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "dependencies": {
+    "can-link": "^1.0.1",
+    "graceful-fs": "^4.1.11",
+    "next-path": "^1.0.0",
+    "path-temp": "2.0.0"
+  },
+  "description": "Gets the shortest directory to which a file can be linked",
+  "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "package-preview": "2.0.0",
+    "standard": "12.0.1",
+    "tape": "^4.8.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-4+sIB6u7zOK1bgYaLVdCNQ0/+LGiRRjogygO3xbXpT232ow2xlnP5CYhPxT3W8AQxD5KG+u/mIF8bDRgcch0xA==",
+    "shasum": "954fe8167c683965c411f5672f315bd4da9091de",
+    "tarball": "https://registry.npmjs.org/root-link-target/-/root-link-target-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 4152,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJczaPgCRA9TVsSAnZWagAAuUQP/RtAqC2BbYqTpdcr2jTt\nJQBS1cGLBcCR6bNJjGp6islaJHjIUc118kvl4GkYSrq0IZM3xVVQ3nuqB34j\nMdBtcuPb2/cB0ZG2jBVJNJDlGTSfpsAsfXsakv0lMghFZJS4KGzxqqVrBZkd\nFzNFqbTYjJGjCSCoeWwksyquZ1e3+rZ7aEFnxpGS0mKv0/u7Qu9j5CMGI6LZ\ngNEY3Muw6CkNS+Y2NVHL+RjovasZADIb9LzE4MhM6iW4Tg7IPRqYz7AFcZqf\nViuuL2ErO/1vqsjGrFBUmPtlTofo96ER5Jr6AbIAN66BGYvL2GLym0Gdu+50\nIISehGbavOE+CAXvrP6lGz0XzK6UKmGkVQMWSkaEzYNX3mindgJP7t4t6VXB\n1f1LpbsR4QcDQD6uMR535/KY9B2b5hB4BBwGwlkO9AymYbWSvHtrb/3BMHqa\nZm7pt/rMTwmeW+iGFhd0uCbZq+i0R4zqhG34xOWEO8bXjGyImwapYFpm8eO0\nIVG8+tqIky5XyJa6j9KC9p/i45HY3HzhfKJidzOBKCp96f0uG2HkXyfaTDZb\nu3hI9B9f8AnGkxoN1pSN4O6Yfl/z7Ur1O2XV/lBtuaNFiY0xaXHxHCQepDuc\nXJ3HJ9kI478NTG0ykC8LVLjUSjSD2QXkXayJ22h/T8DJvaVqbKUhwO7NfLTb\nJCkl\r\n=NZSc\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/root-link-target#readme",
+  "keywords": [
+    "link",
+    "hardlink",
+    "fs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "name": "root-link-target",
+  "optionalDependencies": {},
+  "readme": "# root-link-target\n\n> Gets the shortest directory to which a file can be linked\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/root-link-target.svg)](https://www.npmjs.com/package/root-link-target)\n<!--/@-->\n\n## Installation\n\n```sh\n<npm|yarn|pnpm> add root-link-target\n```\n\n## Usage\n\n```js\nconst rootLinkTarget = require('root-link-target')\n\nrootLinkTarget.sync('C:\\\\sub\\\\dir\\\\foo.txt')\n//> C:\\\\\n```\n\n## API\n\n### `rootLinkTarget.sync(filename): string`\n\nReturns the shortest directory to which `filename` can be linked\n\n### `rootLinkTarget(filename): Promise<string>`\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/root-link-target"
+  },
+  "scripts": {
+    "md": "mos",
+    "test": "standard && preview && node test"
+  },
+  "typings": "index.d.ts",
+  "version": "2.0.0"
+}

@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "p-every@^2.0.0",
+        "scope": null,
+        "escapedName": "p-every",
+        "name": "p-every",
+        "rawSpec": "^2.0.0",
+        "spec": ">=2.0.0 <3.0.0",
+        "type": "range"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/dint"
+    ]
+  ],
+  "_from": "p-every@^2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "p-every@2.0.0",
+  "_location": "/p-every",
+  "_nodeVersion": "10.15.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/p-every_2.0.0_1552641754654_0.3169331683907497"
+  },
+  "_npmUser": {
+    "name": "kevva",
+    "email": "kevinmartensson@gmail.com"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "p-every@^2.0.0",
+    "scope": null,
+    "escapedName": "p-every",
+    "name": "p-every",
+    "rawSpec": "^2.0.0",
+    "spec": ">=2.0.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/dint",
+    "/supi"
+  ],
+  "_resolved": "https://registry.npmjs.org/p-every/-/p-every-2.0.0.tgz",
+  "_shasum": "ad940b82b1bd1da01c307b11e1dd25fe7286181a",
+  "_shrinkwrap": null,
+  "_spec": "p-every@^2.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/dint",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bugs": {
+    "url": "https://github.com/kevva/p-every/issues"
+  },
+  "dependencies": {
+    "p-map": "^2.0.0"
+  },
+  "description": "Test whether all promises passes a testing function",
+  "devDependencies": {
+    "ava": "^1.3.1",
+    "tsd-check": "^0.3.0",
+    "xo": "^0.24.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-MCz9DqD5opPC48Zsd+BHm56O/HfhYIQQtupfDzhXoVgQdg/Ux4F8/JcdRuQ+arq7zD5fB6zP3axbH3d9Nr8dlw==",
+    "shasum": "ad940b82b1bd1da01c307b11e1dd25fe7286181a",
+    "tarball": "https://registry.npmjs.org/p-every/-/p-every-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 5099,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJci27bCRA9TVsSAnZWagAAi6IP/j1xOKrtXOlUnt9Cusx5\n8Bx+rcOBykInsKYgI06WyYrjbZigBT07wMJGBfacGrfz5lGpVXGEg7kAmUkL\nvzBDZIcKhhM4OuQ3/clMRzy4VZYVT4lnf9icxrUqEL7iym9H9GMDApHuXyHn\nU7BrBEEhuFA32srmvfHYnUwG2ibWk3qR0lBjuzLoJzewXHFB2KmJ4+5qvVsM\n/yBk9VVaEMhL77VQhNXOaPvDsPPSND6/jIb9id9qy+j/i2yX+sEKH/iKJhaK\n0c8xaQiWfO2kO7TDbeFIKrbDxPIBwAT197nDx41sAT4N53xqXBolKKg0O1Sp\nnKPUJcfuYLFnK+ccoBDoOAcS4qYnZvxmB/F2NU2sVVXOine2VVKMAVz1K424\nUlMI09mHJ6At4BmCuLI26UIU9cCbUy+OYe3uamixXlQfBjJ/quU3PtxNBxeY\niyKAouyd908pcg/frX5CuWseBZnb9fVww/DqXDcH/7wsugjklbzTkrvYTCN4\nb5JWWV87Gy1a3X6eBeoL/n1KGUXOdzSamw+YWV3jfmyLJhwb/7yBqRElQLX7\ngvRSKDnxhd0XkwxpFWA4JuLBNedHsLVFuh9ZCUMBNWr0tXtmzOsB9B8WCM8v\nNLeAiQo9labxzxcmydkKY3bbIYwWdEZTe4SoSBDWj4gt7tjj2RwPwltVpaHB\nZKNu\r\n=MwxE\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "gitHead": "025ab918257adf4702f530ac585ddc3373d68edd",
+  "homepage": "https://github.com/kevva/p-every#readme",
+  "keywords": [
+    "async",
+    "await",
+    "bluebird",
+    "collection",
+    "concurrency",
+    "concurrently",
+    "every",
+    "filter",
+    "fulfilled",
+    "iterable",
+    "iterator",
+    "parallel",
+    "promise",
+    "promises"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "kevva",
+      "email": "kevinmartensson@gmail.com"
+    }
+  ],
+  "name": "p-every",
+  "optionalDependencies": {},
+  "readme": "# p-every [![Build Status](https://travis-ci.org/kevva/p-every.svg?branch=master)](https://travis-ci.org/kevva/p-every)\n\n> Test whether all promises passes a testing function\n\nLike [`Array.every`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) for promises.\n\n## Install\n\n```\n$ npm install --save p-every\n```\n\n\n## Usage\n\n```js\nconst pEvery = require('p-every');\nconst getContinent = require('get-continent'); // not a real module\n\nconst places = [\n\tgetCapital('Norway').then(info => info.name),\n\t'Bangkok, Thailand',\n\t'Berlin, Germany',\n\t'Tokyo, Japan'\n];\n\nconst testFunction = async place => {\n\tconst continent = await getContinent(place);\n\treturn continent === 'europe';\n}\n\n(async () => {\n\tconst result = await pEvery(places, testFunction);\n\tconsole.log(result);\n\t//=> false\n})();\n```\n\n\n## API\n\n### pEvery(input, testFunction, [options])\n\nReturns a `Promise` that is fulfilled when all promises in `input` and ones returned from `testFunction` are fulfilled, or rejects if any of the promises reject. The fulfilled value is a `boolean` that is `true` if all Promises passed the test and `false` otherwise.\n\n#### input\n\nType: `Iterable<Promise|any>`\n\nIterated over concurrently in the `testFunction` function.\n\n#### testFunction(element, index)\n\nType: `Function`\n\nPredicate function, expected to return a `Promise<boolean>` or `boolean`.\n\n#### options\n\nType: `Object`\n\n##### concurrency\n\nType: `number`<br>\nDefault: `Infinity`<br>\nMinimum: `1`\n\nNumber of concurrently pending promises returned by `testFunction`.\n\n\n## Related\n\n* [p-filter](https://github.com/sindresorhus/p-filter) - Filter promises concurrently\n* [p-locate](https://github.com/sindresorhus/p-locate) - Get the first fulfilled promise that satisfies the provided testing function\n* [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently\n* [More…](https://github.com/sindresorhus/promise-fun)\n\n\n## License\n\nMIT © [Kevin Martensson](http://github.com/kevva)\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevva/p-every.git"
+  },
+  "scripts": {
+    "test": "xo && ava && tsd-check"
+  },
+  "version": "2.0.0"
+}

@@ -1,0 +1,121 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "path-temp@2.0.0",
+        "scope": null,
+        "escapedName": "path-temp",
+        "name": "path-temp",
+        "rawSpec": "2.0.0",
+        "spec": "2.0.0",
+        "type": "version"
+      },
+      "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/git-fetcher"
+    ]
+  ],
+  "_from": "path-temp@2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "path-temp@2.0.0",
+  "_location": "/path-temp",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/path-temp_2.0.0_1556980552192_0.3984157346690449"
+  },
+  "_npmUser": {
+    "name": "zkochan",
+    "email": "z@kochan.io"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "path-temp@2.0.0",
+    "scope": null,
+    "escapedName": "path-temp",
+    "name": "path-temp",
+    "rawSpec": "2.0.0",
+    "spec": "2.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/@pnpm/git-fetcher",
+    "/@pnpm/package-store",
+    "/@pnpm/store-path",
+    "/@pnpm/tarball-fetcher",
+    "/dir-is-case-sensitive",
+    "/root-link-target"
+  ],
+  "_resolved": "https://registry.npmjs.org/path-temp/-/path-temp-2.0.0.tgz",
+  "_shasum": "3c1ff590efe13ac5fa290c0a1446c94804eaddca",
+  "_shrinkwrap": null,
+  "_spec": "path-temp@2.0.0",
+  "_where": "/home/zoltan/src/pnpm/pnpm/packages/pnpm/node_modules/@pnpm/git-fetcher",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "url": "https://www.kochan.io/"
+  },
+  "dependencies": {
+    "unique-string": "^2.0.0"
+  },
+  "description": "Returns a unique temp file name inside the specified folder",
+  "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "package-preview": "2.0.0",
+    "standard": "12.0.1",
+    "tape": "^4.8.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-92olbatybjsHTGB2CUnAM7s0mU/27gcMfLNA7t09UftndUdxywlQKur3fzXEPpfLrgZD3I2Bt8+UmiL7YDEgXQ==",
+    "shasum": "3c1ff590efe13ac5fa290c0a1446c94804eaddca",
+    "tarball": "https://registry.npmjs.org/path-temp/-/path-temp-2.0.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 2971,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJczaNJCRA9TVsSAnZWagAAJCIQAIr4BAJf2E04Os8jJVkn\nXH4VYr/vJlcQvU7npVCLF8L8t76IMk9t2oeI4Yzmo6e6xZq7AOfQTNqb74BH\n3Zsb1xqwVZ6YgxFN/rtAB5G6rPfqyghzUS6sRQZgdtLOBfJYykxtbne/btNX\n821KIPyF6GkMmnA6Or35iHNqu3oESy2kc2dlB3P9XCUusIbYp56mQJV6FXHC\nZ5CTTcQaE+NyqP2jEtI8rbJ14LoH6yPIoLVFe7kIJXL29HDOvR82t5wXPbZ1\ngcNCv36Hy44H/0PaUR+T+rloo6qanYHYD81HYq/qWiiAj7oaZELiKaqFQddp\ne6MFgWJiuhrSGdB4pWaG7PZXGnQlUfehm6p88SY0hLJbhWkcZpvIizoO9DS4\nD1jnCtkCl9HzB9CJ/bTI5Be1Simo1XIF90FXaRkk/rrKubzPlCXWkDDo0/hK\nxQj/c6ms1LS6W+8fG2TRR7a3cb+OU//TQocsmX/R6Iknj5Wd/UEZa99cNO5Y\ngCHm1A1wzhEcs7Suy31ylmqM0GrVnRrs/oBpQ16ZZAOiNemP6MSZiry7bk4M\nbmdFVaD3TUZfnB+2iFAITK7t8G/225ir4tCssWVihqdMuFx2F7InLvn9I4JM\nkUlrNpjYC7jRyjTsnef+p5OYXL6MOqesRznt/kx4yvr0hDiazhHMcOyu5wLR\nE2UX\r\n=fAIb\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=8.15"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "homepage": "https://github.com/zkochan/packages/tree/master/path-temp#readme",
+  "keywords": [
+    "path",
+    "temp",
+    "unique"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "zkochan",
+      "email": "z@kochan.io"
+    }
+  ],
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "name": "path-temp",
+  "optionalDependencies": {},
+  "readme": "# path-temp\n\n> Returns a unique temp file name inside the specified folder\n\n<!--@shields('npm')-->\n[![npm version](https://img.shields.io/npm/v/path-temp.svg)](https://www.npmjs.com/package/path-temp)\n<!--/@-->\n\nUseful when there's a need to do atomic operations. The temp name contains the\nprocess ID.\n\n## Installation\n\n```sh\n<npm|yarn|pnpm> add path-temp\n```\n\n## Usage\n\n```js\nconst pathTemp = require('path-temp')\n\nconsole.log(pathTemp(process.cwd()))\n//> \"/home/zkochan/src/path-temp/_tmp_17230_cf3396bb9fddb8ebb30807366facf123\"\n```\n\n## License\n\n[MIT](./LICENSE) © [Zoltan Kochan](https://www.kochan.io/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/packages/tree/master/path-temp"
+  },
+  "scripts": {
+    "md": "mos",
+    "test": "standard && preview && node test"
+  },
+  "typings": "index.d.ts",
+  "version": "2.0.0"
+}
